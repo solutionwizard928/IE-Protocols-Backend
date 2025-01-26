@@ -1,0 +1,28 @@
+{
+  "name": "intell-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "ipinfo-express": "^2.0.0",
+    "mysql2": "^3.2.3",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.0",
+    "uuid": "^9.0.0",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
